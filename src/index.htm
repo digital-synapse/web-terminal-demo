@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8"> 
+    <title>CALPISO v.1.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <script src="lib/hide-address-bar.js"></script>
+	<link rel="stylesheet" type="text/css" href="terminal.css">
+</head>
+<body>
+    <div>
+        <div id="main">
+            <div runat="server" id="console" >
+                
+                <p style="white-space: pre;font-family: monospace;">
+    ___       ___       ___       ___       ___       ___       ___   
+   /\  \     /\  \     /\__\     /\  \     /\  \     /\  \     /\  \  
+  /::\  \   /::\  \   /:/  /    _\:\  \   /::\  \   /::\  \   /::\  \ 
+ /:/\:\__\ /::\:\__\ /:/__/    /\/::\__\ /::\:\__\ /\:\:\__\ /:/\:\__\
+ \:\ \/__/ \/\::/  / \:\  \    \::/\/__/ \/\::/  / \:\:\/__/ \:\/:/  /
+  \:\__\     /:/  /   \:\__\    \:\__\      \/__/   \::/  /   \::/  / 
+   \/__/     \/__/     \/__/     \/__/               \/__/     \/__/    v.1.0
+                </p>
+                <p>
+                    Welcome to #insert awesome game title here#! This is a mmorpgmudtxtgame that runs in a web browser! Just kidding. This is actually just a demo of a web terminal simulator. Feel free to fork this project on github and create somthing cool with it. :)
+                </p>
+                <span id="input" style="padding-bottom:30px;">#&nbsp;</span>
+                <span id="cursor" style="margin-left:-8px; font-size:14px;">&#8718;</span>
+            </div>
+        </div>
+        <div id='overlay'>
+        </div>
+        
+        <input type="text" id="txtInput" autocomplete="off" style="position: absolute; top: -1000px;"  />                    
+    </div>
+	
+	<script type="text/javascript" src="lib/jquery-1.6.4.min.js" ></script>
+	<script type="text/javascript" src="lib/jquery.caret.1.02.min.js"></script>
+	<script type="text/javascript" src="terminal.js"></script>
+
+</body>
+</html>
