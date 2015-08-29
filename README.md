@@ -1,2 +1,2 @@
-# zombiegta2-demo
-Demo using phaser with three.js and ds.oop to create a gta2 style game
+# web-terminal-demo
+Demo using jquery to simulate a retro monochrome terminal
